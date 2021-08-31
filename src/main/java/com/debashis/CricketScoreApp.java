@@ -93,6 +93,8 @@ public class CricketScoreApp {
 
         // team B
         // over 1
+        scoreCardImpl.playBall("0");
+        scoreCardImpl.playBall("0");
         scoreCardImpl.playBall("W");
 
     }

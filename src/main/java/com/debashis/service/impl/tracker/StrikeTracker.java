@@ -51,9 +51,11 @@ public class StrikeTracker {
                 striker = runner;
                 runner = temp;
                 break;
+            case 0:
             case 2:
             case 4:
             case 6:
+            default:
                 break;
         }
     }
